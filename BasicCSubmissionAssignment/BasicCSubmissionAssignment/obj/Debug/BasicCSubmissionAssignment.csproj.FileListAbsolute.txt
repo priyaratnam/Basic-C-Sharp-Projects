@@ -1,0 +1,8 @@
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\bin\Debug\BasicCSubmissionAssignment.exe.config
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\bin\Debug\BasicCSubmissionAssignment.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\bin\Debug\BasicCSubmissionAssignment.pdb
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\obj\Debug\BasicCSubmissionAssignment.csproj.AssemblyReference.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\obj\Debug\BasicCSubmissionAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\obj\Debug\BasicCSubmissionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\obj\Debug\BasicCSubmissionAssignment.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\BasicCSubmissionAssignment\BasicCSubmissionAssignment\obj\Debug\BasicCSubmissionAssignment.pdb
