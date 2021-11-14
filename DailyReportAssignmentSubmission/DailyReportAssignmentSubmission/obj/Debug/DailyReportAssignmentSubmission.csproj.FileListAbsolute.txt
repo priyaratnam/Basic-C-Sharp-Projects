@@ -1,0 +1,8 @@
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\obj\Debug\DailyReportAssignmentSubmission.csproj.AssemblyReference.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\obj\Debug\DailyReportAssignmentSubmission.csproj.SuggestedBindingRedirects.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\obj\Debug\DailyReportAssignmentSubmission.csproj.CoreCompileInputs.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\bin\Debug\DailyReportAssignmentSubmission.exe.config
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\bin\Debug\DailyReportAssignmentSubmission.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\bin\Debug\DailyReportAssignmentSubmission.pdb
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\obj\Debug\DailyReportAssignmentSubmission.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\DailyReportAssignmentSubmission\DailyReportAssignmentSubmission\obj\Debug\DailyReportAssignmentSubmission.pdb
