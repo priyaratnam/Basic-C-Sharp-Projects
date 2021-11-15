@@ -1,0 +1,8 @@
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\bin\Debug\Math Operation Assignment Submission.exe.config
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\bin\Debug\Math Operation Assignment Submission.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\bin\Debug\Math Operation Assignment Submission.pdb
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\obj\Debug\Math Operation Assignment Submission.csproj.AssemblyReference.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\obj\Debug\Math Operation Assignment Submission.csproj.SuggestedBindingRedirects.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\obj\Debug\Math Operation Assignment Submission.csproj.CoreCompileInputs.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\obj\Debug\Math Operation Assignment Submission.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Math Operation Assignment Submission\Math Operation Assignment Submission\obj\Debug\Math Operation Assignment Submission.pdb
