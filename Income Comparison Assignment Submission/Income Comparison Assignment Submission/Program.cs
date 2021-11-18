@@ -10,6 +10,12 @@ namespace Income_Comparison_Assignment_Submission
     {
         static void Main(string[] args)
         {
+            int weeklydays;
+            int hourlyRate;
+            int yearlySalary;
+            int hourlyRate2;
+            int weeklydays2;
+
             Console.WriteLine("Anonymous Income Comparison Program");
             Console.ReadLine();
 
@@ -17,32 +23,34 @@ namespace Income_Comparison_Assignment_Submission
             Console.ReadLine();
 
             Console.WriteLine("Hourly Rate?");
-            Console.WriteLine("15");
-            Console.ReadLine();
+            hourlyRate = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Hours worked per week?");
-            Console.WriteLine("40");
+            weeklydays = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("");
             Console.ReadLine();
 
             Console.WriteLine("Person 2");
             Console.ReadLine();
 
             Console.WriteLine("Hourly Rate?");
-            Console.WriteLine("20");
-            Console.ReadLine();
+            hourlyRate2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Hours worked per week?");
-            Console.WriteLine("40");
+            weeklydays2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("");
             Console.ReadLine();
 
             Console.WriteLine("Annual salary of Person 1:");
-            int salary = 15 * 40 * 52;
-            Console.WriteLine(salary);
+            yearlySalary = (weeklydays * hourlyRate * 52);
+            Console.WriteLine(yearlySalary);
             Console.ReadLine();
 
             Console.WriteLine("Annual salary of Person 2:");
-            int salarys = 20 * 40 * 52;
-            Console.WriteLine(salarys);
+            yearlySalary = (weeklydays2 * hourlyRate2 * 52);
+            Console.WriteLine(yearlySalary);
             Console.ReadLine();
 
             Console.WriteLine("Person 1 makes more money than Person 2");
