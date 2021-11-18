@@ -32,12 +32,12 @@ namespace DailyReportAssignmentSubmission
             }
             {
                 string text = ("Were there any positive experiences you’d like to share? Please give specifics.");
-                string any = "Convert.ToInt32(Console.ReadLine())";
+                string any = Console.ReadLine();
                 Console.WriteLine("The positive experiences are: " + any);
             }
             {
                 string text = ("Is there any other feedback you’d like to provide? Please be specific.");
-                string feedback = "Convert.ToInt32(Console.ReadLine())";
+                string feedback = Console.ReadLine();
                 Console.WriteLine("The feedback is: " + feedback);
             }
             {
