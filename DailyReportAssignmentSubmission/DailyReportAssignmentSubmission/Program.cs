@@ -24,19 +24,20 @@ namespace DailyReportAssignmentSubmission
             }
             {
                 Console.WriteLine("Do you need help with anything? Please answer “true” or “false”.");
-                int help = Convert.ToInt32(Console.ReadLine());
+                bool res  = Convert.ToBoolean(Console.ReadLine());
+                bool a = true;
                 bool b = false;
-                string res = b.ToString();
+                Console.WriteLine("Return Value = " + res);
                 Console.WriteLine("Return Value = " + res);
             }
             {
-                Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
-                int any = Convert.ToInt32(Console.ReadLine());
+                string text = ("Were there any positive experiences you’d like to share? Please give specifics.");
+                string any = "Convert.ToInt32(Console.ReadLine())";
                 Console.WriteLine("The positive experiences are: " + any);
             }
             {
-                Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
-                int feedback = Convert.ToInt32(Console.ReadLine());
+                string text = ("Is there any other feedback you’d like to provide? Please be specific.");
+                string feedback = "Convert.ToInt32(Console.ReadLine())";
                 Console.WriteLine("The feedback is: " + feedback);
             }
             {
