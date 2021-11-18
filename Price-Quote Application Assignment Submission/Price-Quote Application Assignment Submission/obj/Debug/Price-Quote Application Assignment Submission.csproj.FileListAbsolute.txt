@@ -1,0 +1,8 @@
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\bin\Debug\Price-Quote Application Assignment Submission.exe.config
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\bin\Debug\Price-Quote Application Assignment Submission.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\bin\Debug\Price-Quote Application Assignment Submission.pdb
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\obj\Debug\Price-Quote Application Assignment Submission.csproj.AssemblyReference.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\obj\Debug\Price-Quote Application Assignment Submission.csproj.SuggestedBindingRedirects.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\obj\Debug\Price-Quote Application Assignment Submission.csproj.CoreCompileInputs.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\obj\Debug\Price-Quote Application Assignment Submission.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Price-Quote Application Assignment Submission\Price-Quote Application Assignment Submission\obj\Debug\Price-Quote Application Assignment Submission.pdb
