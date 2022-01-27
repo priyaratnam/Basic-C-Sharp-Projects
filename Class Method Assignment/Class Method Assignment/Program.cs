@@ -4,43 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class_Method_Assignment
+namespace ClassMethodAssignment
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Deck deck = new Deck();
-            //List<Card> deck = new List<Card>();
-            //int timesShuffled = 0;
-            deck.Shuffle(3);
-
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + "of" + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
-            Console.WriteLine("Times shuffled: {0}", timesShuffled);
+            int returnMult;
+            Math_up myNumObj = new Math_up();
+            Console.WriteLine("Input an integer: ");
+            int userNum = Convert.ToInt32(Console.ReadLine());
+            myNumObj.myMethodOp(userNum);
+            int myNum = 100;
+            Console.WriteLine("What is your number plus add the my number: " + Math_up.myMethodOp(userNum, myNum));
+            myNumObj.MethodOut(userNum, out int extraNum);
+            Console.WriteLine("What you get the number plus hundread is: " + extraNum);
+            returnMult = Static_Math_up.MethodMult(userNum);
+            Console.WriteLine("The final total number times twenty is: " + returnMult);
             Console.ReadLine();
-        }
-        public static Deck Shuffle (Deck deck, out int timesShuffled, int times = 1)
-        {
-            timesShuffled = 0;
-            for (int i = 0; i < times; i++)
-            {
-                timesShuffled++;
-                List<Card> TempList = new List<Card>();
-                Random random = new Random();
-
-                while (deck.Cards.Count > 0)
-                {
-                    int randomIndex = random.Next(0, deck.Cards.Count);
-                    TempList.Add(deck.Cards[randomIndex]);
-                    deck.Cards.RemoveAt(randomIndex);
-                }
-                deck.Cards = TempList;
-            }
-            return deck;
         }
     }
 }
