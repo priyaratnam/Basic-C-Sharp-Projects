@@ -4,83 +4,114 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_App_Assignment_Part_6
+namespace ConsoleApp6PartAssignment
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            int[] testScores = { 98, 99, 85, 70, 82, 34, 91, 90, 94 };
-            for (int i = 0; i < testScores.Length; i++)
+            string[] myStringArray = { "One", "dimensional", "array", "of", "strings" };
+            Console.WriteLine("Please input a less count of word please?: ");
+            string userText = Console.ReadLine();
+            for (int i = 0; i < myStringArray.Length; i++)
             {
-                if (testScores[i] > 85)
+                string addUserString = myStringArray[i] + " " + userText;
+                Console.WriteLine(addUserString + " " + "\n");
+            }
+            Console.ReadLine();
+            string[] infinite = { "i", "n", "f", "i", "n", "i", "t", "e" };
+            for (int j = 0; j < infinite.Length; j++)
+            {
+                Console.WriteLine(infinite[j]);
+            }
+            Console.ReadLine();
+            int[] myLoop = { 1, 2, 3, 4, 5 };
+            for (int k = 0; k < myLoop.Length; k++)
+            {
+                Console.WriteLine(myLoop[k]);
+            }
+            Console.ReadLine();
+            for (int l = 0; l <= 2; l++)
+            {
+                Console.WriteLine(myLoop[l]);
+            }
+            Console.ReadLine();
+            List<string> myWords = new List<string>();
+            myWords.Add("My");
+            myWords.Add("strength");
+            myWords.Add("is");
+            myWords.Add("my");
+            myWords.Add("dad");
+            myWords.Add("and");
+            myWords.Add("my");
+            myWords.Add("dad");
+            myWords.Add("lovable");
+            myWords.Add("memories.");
+            Console.WriteLine("Connect my words with sentence \"The only true is words are true.\"");
+            string userWord = Console.ReadLine();
+            foreach (string word in myWords)
+            {
+                if (word == userWord)
                 {
-                    Console.WriteLine("Passing test score:" + testScores[i]);
+                    Console.WriteLine("The index of " + "\"" + userWord + "\"" + " is: " + myWords.IndexOf(word));
+                    break;
+                }
+            }
+            if (myWords.Contains(userWord) == false)
+            {
+                Console.WriteLine("You must have to enter the letter or word from the sentence.");
+            }
+            Console.ReadLine();
+            List<string> mySong = new List<string>();
+            List<int> repeatLyrics = new List<int>();
+            mySong.Add("Don't");
+            mySong.Add("Beleive");
+            mySong.Add("everyone");
+            mySong.Add("but");
+            mySong.Add("beleive");
+            mySong.Add("your");
+            mySong.Add("self");
+            mySong.Add("thoughts");
+
+            Console.WriteLine("You must have to type the word from the passage: ");
+            Console.WriteLine("Don't beleive everyone but beleive your self thoughts");
+            string userWordLyric = Console.ReadLine();
+            for (int i = 0; i < mySong.Count; i++)
+            {
+                bool songFound = false;
+                if (userWordLyric == mySong[i])
+                {
+                    songFound = true;
+                    Console.WriteLine("The total of the passage: " + i);
+                }
+            }
+            if (mySong.Contains(userWordLyric) == false)
+            {
+                Console.WriteLine("You must have to type the word from the passage:");
+            }
+            Console.ReadLine();
+            List<string> nameList = new List<string>();
+            List<string> nameRepeat = new List<string>();
+            nameList.Add("Priya");
+            nameList.Add("Abishan");
+            nameList.Add("Trishana");
+            nameList.Add("Thuva");
+            nameList.Add("Abishna");
+            nameList.Add("Karan");
+            foreach (string name in nameList)
+            {
+                if (nameRepeat.Contains(name))
+                {
+                    nameRepeat.Add(name);
+                    Console.WriteLine("You enterd name " + name + " has already listed in the coloum!");
+                }
+                else
+                {
+                    nameRepeat.Add(name);
+                    Console.WriteLine("This is " + name + " not in the list yet!");
                 }
             }
             Console.ReadLine();
-
-            string[] names = { "Priya", "Ratnam", "Mala", "Chelvi" };
-            for (int j = 0; j < names.Length; j++)
-            {
-                {
-                    Console.WriteLine(names[j]);
-                }
-            }
-            Console.ReadLine();
-
         }
-    }
-}
-        internal class Program1
-        {
-            static void Mains(string[] args)
-            {
-                List<int> testScores = new List<int>();
-        testScores.Add(98);
-        testScores.Add(99);
-        testScores.Add(81);
-        testScores.Add(72);
-        testScores.Add(70);
-
-        foreach (int score in testScores)
-        {
-            if (score > 85)
-            {
-                Console.WriteLine("Passing test score:" + score);
-            }
-        }
-        Console.ReadLine();
-    }
-
-}
-internal class Program
-{
-    static void Main(string[] args)
-    {
-        List<string> names = new List<string>() { "Priya", "Ratnam", "Mala", "Chelvi" };
-        foreach (string name in names)
-            {
-                Console.WriteLine(name);
-            }
-        Console.ReadLine();
-    }
-}
-internal class Program3
-{
-    static void Main(string[] args)
-    {
-        List<int> testScore = new List<int>() { 98, 99, 12, 74, 23, 99 };
-        List<int> passingScores = new List<int>();
-
-        foreach (int score in testScore)
-        {
-            if (score > 85)
-            {
-                passingScores.Add(score);
-            }
-        }
-        Console.WriteLine(passingScores.Count);
-        Console.ReadLine();
     }
 }
