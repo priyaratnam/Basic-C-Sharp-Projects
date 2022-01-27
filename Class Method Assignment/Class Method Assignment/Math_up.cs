@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +10,9 @@ namespace ClassMethodAssignment
     {
         public void myMethodOp(int userNum)
         {
-            Console.WriteLine("Please divide your number by ten: " + (userNum / 10));
+            Console.WriteLine("Your number divided by hundread is: " + (userNum / 100));
         }
-        public static int myMethod_up(int userNum, int myNum)
+        public static int myMethod_op(int userNum, int myNum)
         {
             int newNum = userNum + myNum;
             return newNum;
