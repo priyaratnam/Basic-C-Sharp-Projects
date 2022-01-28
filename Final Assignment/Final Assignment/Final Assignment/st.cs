@@ -16,5 +16,6 @@ namespace Final_Assignment
         public float Weights { get; set; }
 
         public Grade Grades { get; set; }
+        public string Student_Name { get; internal set; }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09F64C34-265D-4FDC-8EDC-775B2C1E2BCE}</ProjectGuid>
+    <ProjectGuid>{737D2FAB-FBB6-4D17-AB29-DFD99B8B3480}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Final_Assignment</RootNamespace>
-    <AssemblyName>Final Assignment</AssemblyName>
+    <RootNamespace>Classes_and_Methods_Assignment_1</RootNamespace>
+    <AssemblyName>Classes and Methods Assignment 1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Db_Set.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="gd.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="sc.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="st.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
