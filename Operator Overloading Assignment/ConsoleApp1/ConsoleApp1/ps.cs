@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Operators_Overload_Assignment
 {
-    public abstract class Person
+    public abstract class ps
     {
         public string firstName { get; set; }
         public string lastName { get; set; }

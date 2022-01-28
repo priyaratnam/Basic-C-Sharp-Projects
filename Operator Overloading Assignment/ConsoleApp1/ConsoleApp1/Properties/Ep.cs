@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Operators_Overload_Assignment
 {
-    class Employee : Person, IQuittable
+    class Ep : ps, Q
     {
         public int employee_ID { get; set; }
         public override void SayName()

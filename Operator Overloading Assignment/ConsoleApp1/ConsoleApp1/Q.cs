@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Operators_Overload_Assignment
 {
-    interface IQuittable
+    interface Q
     {
         void Quit();
     }
