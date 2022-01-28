@@ -1,0 +1,8 @@
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\bin\Debug\Final Challenge.exe.config
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\bin\Debug\Final Challenge.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\bin\Debug\Final Challenge.pdb
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\obj\Debug\Final Challenge.csproj.AssemblyReference.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\obj\Debug\Final Challenge.csproj.SuggestedBindingRedirects.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\obj\Debug\Final Challenge.csproj.CoreCompileInputs.cache
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\obj\Debug\Final Challenge.exe
+C:\Users\kkala\Documents\GitHub\Basic-C-Sharp-Projects\Final Challenge\Final Challenge\Final Challenge\obj\Debug\Final Challenge.pdb
