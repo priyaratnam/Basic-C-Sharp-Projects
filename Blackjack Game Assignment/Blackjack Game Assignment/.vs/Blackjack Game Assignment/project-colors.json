@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3182ec12-344d-44b5-a8ea-a1eac03519fa": {
+      "ProjectGuid": "3182ec12-344d-44b5-a8ea-a1eac03519fa",
+      "DisplayName": "Blackjack Game Assignment",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
