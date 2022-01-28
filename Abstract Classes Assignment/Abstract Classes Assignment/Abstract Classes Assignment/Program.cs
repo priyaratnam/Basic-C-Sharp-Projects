@@ -13,6 +13,7 @@ namespace Abstract_Classes_Assignment
             Employee employee1 = new Employee();
             employee1.firstName = "Kalaipriya";
             employee1.lastName = "Kanagaratnam";
+            Employee employee = new Employee() { firstName = "Sample", lastName = "Student" };
             employee1.sayName();
             Console.ReadLine();
         }
