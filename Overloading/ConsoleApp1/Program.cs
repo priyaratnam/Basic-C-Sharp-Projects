@@ -10,19 +10,15 @@ namespace Operators_Overload_Assignment
     {
         static void Main(string[] args)
         {
-            Employee employee1 = new Employee();
-            employee1.firstName = "Mala";
-            employee1.lastName = "Ratnam";
-            employee1.employeeID = 1236;
-            Employee employee1 = new Employee();
+            Employee employee2 = new Employee();
             employee2.firstName = "Priya";
             employee2.lastName = "Ratnam";
-            employee2.employeeID = 6547;
+            employee2.employeeID = 1997;
             Employee employee3 = new Employee();
-            employee3.firstName = "Abishan";
-            employee3.lastName = "Aran";
-            employee3.employeeID = 9874;
-            bool doesEqual = employee2 == employee3;
+            employee3.firstName = "Mala";
+            employee3.lastName = "Ratnam";
+            employee3.employeeID = 1957;
+            bool doesEqual = employee2 == employee3; 
             Console.ReadLine();
         }
     }
