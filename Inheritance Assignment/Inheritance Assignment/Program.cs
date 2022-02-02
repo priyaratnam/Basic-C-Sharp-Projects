@@ -6,21 +6,17 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Assignment
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Game game = new Game();
-            game.Dealer = "Jesse";
-            game.Name = "Game";
-            Deck deck = new Deck();
-            deck.Shuffle(3);
-
-            foreach (Card card in deck.Cards)
+            Employee eName = new Employee
             {
-                Console.WriteLine(card.Face + "of" + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
+                FirstName = "Priya",
+                LastName = "Ratnam"
+            };
+
+            eName.SayName();
             Console.ReadLine();
         }
     }
