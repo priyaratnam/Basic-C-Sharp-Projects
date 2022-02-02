@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{422AE467-15D9-43A9-A54D-AD0E410E4EE7}</ProjectGuid>
+    <ProjectGuid>{A1E2B66A-58CA-4C2F-BD97-E95297FA4A65}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Method_Assignment</RootNamespace>
-    <AssemblyName>Method Assignment</AssemblyName>
+    <RootNamespace>Operator_Overloading_Assignment</RootNamespace>
+    <AssemblyName>Operator Overloading Assignment</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Ep.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
