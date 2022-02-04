@@ -10,11 +10,11 @@ namespace Operator_Overload_Assignment
     {
         static void Main(string[] args)
         {
-            Employee example = new Employee();
+            Em example = new Em();
             example.FirstName = "Priya";
             example.LastName = "Ratnam";
             example.ID = 00000000;
-            Employee example2 = new Employee();
+            Em example2 = new Em();
             example2.FirstName = "Mala";
             example2.LastName = "Ratnam";
             example2.ID = 11111111;
