@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OperatorOverloadAssignment
+namespace Operator_Overload_Assignment
 {
     class Program
     {
