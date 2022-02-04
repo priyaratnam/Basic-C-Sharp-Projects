@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace AdditionalFeaturesAssignment
+namespace Additional_Features_Assignment
 {
-    public class mySampleClass
+    class Add
     {
-        public mySampleClass()
+        public string fName { get; set; }
+        public string lName { get; set; }
+        public decimal Money { get; set; }
+        public Add(string fName, string lName, decimal Money)
         {
-            Console.WriteLine("10");
+            this.fName = fName;
+            this.lName = lName;
+            this.Money = Money;
         }
-        public mySampleClass(int x) : this()
+        public Add(string fName, string lName) : this(fName, lName, 0)
         {
-            Console.WriteLine("Priya");
-        }
-        public mySampleClass(int x, string y) : this(50)
-        {
-            Console.WriteLine("9");
         }
     }
 }

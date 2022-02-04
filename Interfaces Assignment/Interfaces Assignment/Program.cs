@@ -11,9 +11,12 @@ namespace WindowsFormsApp1
     {
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEmployeeSelection());
+            EP Sample = new EP();
+            Sample.fName = "Priya";
+            Sample.lName = "Ratnam";
+            Sample.SayName();
+            IQS Iquit = new EP();
+            Iquit.Quit();
         }
     }
 }
